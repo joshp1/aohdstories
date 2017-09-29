@@ -1,0 +1,6 @@
+# Trying to get git to ignore openoffice and libreoffice lock files #
+#####################################################################
+
+.~lock.*
+.~lock
+.doc#
