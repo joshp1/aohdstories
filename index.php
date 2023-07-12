@@ -15,3 +15,5 @@ if ($handle = opendir('.')) {
 <br />
 echo file_get_contents( "README.md" ); // get the contents, and echo it out.
 ?>
+
+test
