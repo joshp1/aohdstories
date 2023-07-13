@@ -14,7 +14,7 @@ if ($handle = opendir('.')) {
 }?>
 <br />
 <?php
-    $file = fopen ("tempTest, 'r');
+    $file = fopen ("tempTest", 'r');
 
     // Outpu lines until EOF is reached
     while (! feof ($file)) {
