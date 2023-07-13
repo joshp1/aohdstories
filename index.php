@@ -33,7 +33,8 @@ if ($handle = opendir('.')) {
 
     closedir($handle);
 }?>
-</div><md-block>
+</div>
+<md-block>
 <?php
     $file = fopen ("README.md", 'r');
 
@@ -45,6 +46,5 @@ if ($handle = opendir('.')) {
 
     fclose ($file);?>
 </md-block>
-<br />
 
 </body></html>
