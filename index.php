@@ -14,7 +14,8 @@ if ($handle = opendir('.')) {
 }?>
 <br />
 <?php
-	echo nl2br(file_get_contents( "README.md" )); // get the contents, and echo it out.
+	echo nl2br(file_get_contents( "tempTest" )); // get the contents, and echo it out.
 ?>
+
 <br />
-test
+
