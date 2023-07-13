@@ -14,19 +14,15 @@ if ($handle = opendir('.')) {
 }?>
 <br />
 <?php
-    $file = fopen ("tempTest", 'r');
+    $file = fopen ("tempTest, 'r');
 
     // Outpu lines until EOF is reached
     while (! feof ($file)) {
         $line = fgets ($file);
-        print $line."<br />";
+        print "<p>".$line."</p><br />";
     }
 
-    fclose ($file);
-
-    // probably will delete now below
-	print nl2br(file_get_contents( "tempTest" )); // get the contents, and echo it out.
-?>
+    fclose ($file);?>
 
 <br />
 
