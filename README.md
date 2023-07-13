@@ -1,7 +1,7 @@
 # Aohd comics and stories
 
 ## What is this about?
-What started out as something I did goofing off turned into a series of it's ownwith it's own universe
+What started out as something I did goofing off turned into a series of it's own with it's own universe
 
 _____
 
