@@ -3,6 +3,8 @@
 ## What is this about?
 What started out as something I did goofing off turned into a series of it's ownwith it's own universe
 
+_____
+
 ### Characters
 ### *The phoenix's*
 
@@ -25,7 +27,7 @@ He's a baker.
 ***Name you can't pronounce***
 Very powerful demon that loves dramatic intros.
 
-### Other
+### *Other*
 
 **Bob**
 He's just a blob. But a friend of Aohds. (Rarely used)
