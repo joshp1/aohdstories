@@ -8,7 +8,7 @@
     <style language = "text/css">
         #hdr 
         {
-            background color:grey:
+            background color:grey;
         }
         #hdr a
         {
