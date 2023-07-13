@@ -19,13 +19,13 @@ if ($handle = opendir('.')) {
     // Outpu lines until EOF is reached
     while (! feof ($file)) {
         $line = fgets ($file);
-        echo $line."<br />";
+        print $line."<br />";
     }
 
     fclose ($file);
 
     // probably will delete now below
-	echo nl2br(file_get_contents( "tempTest" )); // get the contents, and echo it out.
+	print nl2br(file_get_contents( "tempTest" )); // get the contents, and echo it out.
 ?>
 
 <br />
