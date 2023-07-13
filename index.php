@@ -25,9 +25,9 @@ if ($handle = opendir('.')) {
 
     while (false !== ($entry = readdir($handle))) {
 
-        if ($entry != "." && $entry != ".." && $entry != ".git" && $entry !="README.md" && $entry !="index.php" && $entry != ".gitignore" && $entry !="aohd4.org~") {
+        if ($entry != "." && $entry != ".." && $entry != ".git" && $entry !="README.md" && $entry !="index.php" && $entry != ".gitignore" && $entry !="aohd4.org~" && $entry !="txt") {
 
-            echo "<a href='$entry'>$entry</a>\n";
+            echo "<a href='$entry'>$entry</a>|\n";
         }
     }
 
