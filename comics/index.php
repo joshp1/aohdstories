@@ -34,7 +34,7 @@ if ($handle = opendir('.')) {
     closedir($handle);
 }?>
 </div>
-<p>
+<pre>
 <?php
     $file = fopen ("ideas", 'r');
 
@@ -45,6 +45,6 @@ if ($handle = opendir('.')) {
     }
 
     fclose ($file);?>
-</p>
+</pre>
 
 </body></html>
