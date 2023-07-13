@@ -25,7 +25,7 @@ if ($handle = opendir('.')) {
 
     while (false !== ($entry = readdir($handle))) {
 
-        if ($entry != "." && $entry != ".." && $entry !="index.php") {
+        if ($entry != "." && $entry != ".." && $entry !="index.php" && $entry !="ideas") {
 
             echo "<a href='$entry'>$entry</a>|\n";
         }
