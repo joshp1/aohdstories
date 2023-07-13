@@ -18,7 +18,6 @@
     </style>
     <body>
         <div id = "hdr">
-            <md-block>
 <?php
 
 if ($handle = opendir('.')) {
@@ -32,8 +31,8 @@ if ($handle = opendir('.')) {
     }
 
     closedir($handle);
-}?></md-block>
-</div>
+}?>
+</div><md-block>
 <?php
     $file = fopen ("README.md", 'r');
 
@@ -44,7 +43,7 @@ if ($handle = opendir('.')) {
     }
 
     fclose ($file);?>
-
+</md-block>
 <br />
 
 </body></html>
