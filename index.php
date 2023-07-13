@@ -1,3 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Aohd stories and comics
+        </title>
+    </head>
+    <style language = "text/css">
+        #hdr 
+        {
+            background color:grey:
+        }
+        #hdr a
+        {
+            text-decoration: none;
+        }
+    </style>
+    <body>
+        <div id = "hdr">
 <?php
 
 if ($handle = opendir('.')) {
@@ -12,9 +31,9 @@ if ($handle = opendir('.')) {
 
     closedir($handle);
 }?>
-<br />
+</div>
 <?php
-    $file = fopen ("tempTest", 'r');
+    $file = fopen ("README.md", 'r');
 
     // Outpu lines until EOF is reached
     while (! feof ($file)) {
@@ -26,3 +45,4 @@ if ($handle = opendir('.')) {
 
 <br />
 
+</body></html>
