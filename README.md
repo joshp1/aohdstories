@@ -1,10 +1,5 @@
 # Aohd comics and stories
 
-file structure
- \ 
-  comics - script to comcis here
-  stories- writen stories go here.
-  characters - Character descriptions go here. (I'ts time I write them all down.
 ## What is this about?
 What started out as something I did goofing off turned into a series of it's ownwith it's own universe
 
