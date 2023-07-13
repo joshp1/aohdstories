@@ -8,10 +8,11 @@
     <style language = "text/css">
         #hdr 
         {
-            background color:grey;
+            background-color:grey;
         }
         #hdr a
-        {
+        {   color:white;
+            
             text-decoration: none;
         }
     </style>
