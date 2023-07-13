@@ -19,7 +19,7 @@ if ($handle = opendir('.')) {
     // Outpu lines until EOF is reached
     while (! feof ($file)) {
         $line = fgets ($file);
-        print "<p>".$line."</p><br />";
+        print "<pre>".$line."</pre><br />";
     }
 
     fclose ($file);?>
