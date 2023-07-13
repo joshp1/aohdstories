@@ -20,7 +20,7 @@ Not quite as powerful to Aohd. But Aohd has a crush on her. What won't be reveal
 #### The Goats
 
 **Jason**
-A goat that is a stoner. He owns his own home but it never says how he pays for it or what he does. He's best friends with Aohd how ever he thinks Aohd is a hulisination. He just goes along with it.
+  A goat that is a stoner. He owns his own home but it never says how he pays for it or what he does. He's best friends with Aohd how ever he thinks Aohd is a hulisination. He just goes along with it.
 
 ### Demons
 
