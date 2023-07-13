@@ -11,9 +11,10 @@ if ($handle = opendir('.')) {
     }
 
     closedir($handle);
-}
+}?>
 <br />
-echo file_get_contents( "README.md" ); // get the contents, and echo it out.
+<?php
+	echo file_get_contents( "README.md" ); // get the contents, and echo it out.
 ?>
-
+<br />
 test
