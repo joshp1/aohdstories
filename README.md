@@ -4,7 +4,7 @@
 What started out as something I did goofing off turned into a series of it's ownwith it's own universe
 
 ### Characters
-####The phoenix's
+### *The phoenix's*
 
 **Aohd**
 A very power that is usually very stoned. on a pot plant that only grows in hell. Called Hellweed.
