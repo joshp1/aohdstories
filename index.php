@@ -5,6 +5,7 @@
             Aohd stories and comics
         </title>
     </head>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <style language = "text/css">
         #hdr 
         {
