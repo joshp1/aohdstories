@@ -8,7 +8,7 @@
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <style language = "text/css">
         #hda {
-            background color :grey;width:55;
+            background-color :grey;width:31;
             display:block;float:left;
         }
         #hdb
