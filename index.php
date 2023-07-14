@@ -47,10 +47,11 @@ if ($handle = opendir('.')) {
     fclose ($file);?>
 </md-block>
 
+<pre>
 <?php
 
 $gitOut = shell_exec ('git log');
 
-echo $gitOut + '/n</br />';?>
+echo $gitOut + '/n</br />';?></pre>
 
 </body></html>
