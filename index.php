@@ -51,6 +51,6 @@ if ($handle = opendir('.')) {
 
 $gitOut = shell_exec ('git log');
 
-echo $gitOut;?>
+echo $gitOut + '/n</br />';?>
 
 </body></html>
