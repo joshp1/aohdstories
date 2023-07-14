@@ -19,13 +19,16 @@
         {border:2px solid;
             display:block;float: left;width:1236px;
         }
+        #hdr {
+            display :block;}
+        }
         #hdr a
         {   color:white;
 
             text-decoration: none;}
     </style>
-    <body>
-        <a href = 'javascript:history.go (-1)'>Back</a>
+    <body><div id = 'hdr'>
+        <a href = 'javascript:history.go (-1)'>Back</a></div>
         <div id = "hda">
 <?php
 
