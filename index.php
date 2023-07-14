@@ -14,7 +14,7 @@
         #hdb
         {
             background-color:grey;
-            display:block;float:left;width:631px;
+            display:block;float:left;width:1236px;
         }
         #hdr a
         {   color:white;
