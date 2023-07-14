@@ -10,6 +10,8 @@
         #hdr 
         {
             background-color:grey;
+            display:block;
+            width:30px;
         }
         #hdr a
         {   color:white;
@@ -33,7 +35,7 @@ if ($handle = opendir('.')) {
 
     closedir($handle);
 }?>
-</div>
+</div><div id = 'hdr'>
 <md-block>
 <?php
     $file = fopen ("README.md", 'r');
@@ -45,11 +47,5 @@ if ($handle = opendir('.')) {
     }
 
     fclose ($file);?>
-</md-block>
-<pre>
-<?php
-
-$gitOut = shell_exec ('git log -n 5');
-print $gitOut;?></pre>
-
+</md-block></div>
 </body></html>
