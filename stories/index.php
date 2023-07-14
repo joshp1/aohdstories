@@ -58,7 +58,5 @@ if ($handle = opendir('.')) {
     fclose ($file);?>
 </pre></div>
 
-<!-- Ading the md block src here -->
-<md-block src = 'test.md' />
 
 </body></html>
