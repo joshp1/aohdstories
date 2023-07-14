@@ -47,4 +47,10 @@ if ($handle = opendir('.')) {
     fclose ($file);?>
 </md-block>
 
+<?php
+
+$gitOut = shell_exec ('git log');
+
+echo $gitOut;?>
+
 </body></html>
