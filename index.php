@@ -46,10 +46,10 @@ if ($handle = opendir('.')) {
 
     fclose ($file);?>
 </md-block>
-
+<pre>
 <?php
 
 $gitOut = shell_exec ('git log -n 5');
-print $gitOut . "<br />"?>
+print $gitOut;?></pre>
 
 </body></html>
