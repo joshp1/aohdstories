@@ -10,8 +10,7 @@
         #hdr 
         {
             background-color:grey;
-            display:block;float:left;
-            width:30px;
+            display:block;float:left;width:210;
         }
         #hdr a
         {   color:white;
