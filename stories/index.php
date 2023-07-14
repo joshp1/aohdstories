@@ -47,4 +47,7 @@ if ($handle = opendir('.')) {
     fclose ($file);?>
 </pre>
 
+<!-- Ading the md block src here -->
+<md-block src = 'test.md' />
+
 </body></html>
