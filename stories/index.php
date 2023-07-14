@@ -19,7 +19,7 @@
         {border:2px solid;
             display:block;float: left;
         }
-        #hdr {
+        #hdr {background :black;
             display :block;}
         }
         #hdr a
