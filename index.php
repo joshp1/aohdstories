@@ -13,7 +13,7 @@
         }
         #hdb
         {
-            background-color:grey;border:2px solid;border-right :0px solid;
+            background-color:grey;border-bottom :2px solid;border-left :2px solid;border-top :2px solid;
             display:block;float: left;width:1236px;
         }
         #hdr a
