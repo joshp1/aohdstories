@@ -7,18 +7,29 @@
     </head>
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <style language = "text/css">
-        #hdr 
-        {
-            background-color:grey;
+        #hda {
+            background-color :black;width:63px;
+            display:block;float:left;
+           border-bottom :2px solid;border-left :2px solid;border-top :2px solid;
+        }
+        #hda a 
+        {   color :white;text-decoration :none;
+        }
+        #hdb
+        {border:2px solid;
+            display:block;float: left;width:1236px;
+        }
+        #hdr {
+            display :block;}
         }
         #hdr a
         {   color:white;
 
-            text-decoration: none;
-        }
+            text-decoration: none;}
     </style>
-    <body>
-        <div id = "hdr">
+    <body><div id = 'hdr'>
+        <a href = "../">Back</a></div>
+        <div id = "hda">
 <?php
 
 if ($handle = opendir('.')) {
@@ -33,7 +44,7 @@ if ($handle = opendir('.')) {
 
     closedir($handle);
 }?>
-</div>
+</div><div id = "hdb">
 <pre>
 <?php
     $file = fopen ("ideas", 'r');
@@ -45,7 +56,7 @@ if ($handle = opendir('.')) {
     }
 
     fclose ($file);?>
-</pre>
+</pre></div>
 
 <!-- Ading the md block src here -->
 <md-block src = 'test.md' />
