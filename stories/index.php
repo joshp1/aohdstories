@@ -17,7 +17,7 @@
         }
         #hdb
         {border:2px solid;
-            display:block;float: left;width:1236px;
+            display:block;float: left;
         }
         #hdr {
             display :block;}

@@ -44,7 +44,7 @@ if ($handle = opendir('.')) {
 
     closedir($handle);
 }?>
-</div><div id = "hdb"
+</div><div id = "hdb">
 <pre>
 <?php
     $file = fopen ("ideas", 'r');
