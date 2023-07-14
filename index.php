@@ -8,12 +8,12 @@
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <style language = "text/css">
         #hda {
-            background-color :grey;width:63px;
+            background-color :grey;border:6px;width:63px;
             display:block;float:left;
         }
         #hdb
         {
-            background-color:grey;
+            background-color:grey;border :6px;
             display:block;float:left;width:1236px;
         }
         #hdr a
