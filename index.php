@@ -50,7 +50,7 @@ if ($handle = opendir('.')) {
 <?php
 
 $gitOut = shell_exec ('git log');
-print $gitOut + '/n</br />';
+print $gitOut;
 print "testing this out";?>
 
 </body></html>
