@@ -7,7 +7,11 @@
     </head>
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <style language = "text/css">
-        #hdr 
+        #hda {
+            background color :grey;width:55;
+            display:block;float:left;
+        }
+        #hdb
         {
             background-color:grey;
             display:block;float:left;width:210;
@@ -19,7 +23,7 @@
         }
     </style>
     <body>
-        <div id = "hdr">
+        <div id = "hda">
 <?php
 
 if ($handle = opendir('.')) {
@@ -34,7 +38,7 @@ if ($handle = opendir('.')) {
 
     closedir($handle);
 }?>
-</div><div id = 'hdr'>
+</div><div id = 'hdb'>
 <md-block>
 <?php
     $file = fopen ("README.md", 'r');
