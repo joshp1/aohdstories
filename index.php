@@ -28,7 +28,7 @@
             text-decoration: none;}
     </style>
     <body><div id = 'hdr'>
-        <a href = 'javascript:history.go (-1)'>Back</a></div>
+        <a href = "../">Back</a></div>
         <div id = "hda">
 <?php
 
